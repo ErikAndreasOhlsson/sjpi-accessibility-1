@@ -56,7 +56,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
     <!-- Dold text och klickbar div. 
      .hidden-text är nästan osynlig p.g.a. låg opacity och roterad tex -->
     <p class="hidden-text">This text is invisible.</p>
-    <button class="button">Click here!</button>
+    <button type="button"  class="button">Click here!</button>
     <div class="container">
 
         <!-- Två <h1>-taggar i .container kan påverka tillgänglighet och SEO. -->
@@ -69,12 +69,13 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
             <p>Scientists have discovered a new deep-sea fish with bioluminescent fins off the coast of Australia. The
                 unnamed species is believed to have unique traits that could contribute to future medical research and
                 biotechnology.</p>
-            <a href="404.html">Read more about the deep sea!</a>
+            <a href="#">Read more about the deep sea fish discovery!</a>
         </div>
 
         <!-- Klicka på artikeln för att visa ett meddelande, men den utför egentligen inget. -->
         <div class="article">
-            <h2> Lunar New Year: Celebrate with us!</h2>
+            <h2>Lunar New Year: Celebrate with us!</h2>
+            <p>Explore stories and images from Lunar New Year celebrations around the world.</p>
 
             <!-- Bilder visas inte, varför? -->
             <div class="image-container">
@@ -93,25 +94,14 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
         <div class="article">
         <video controls>
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
-            <img src="http://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="animated reaction image">
+            <img src="http://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="Animated reaction GIF">
         </div>
     </div>
 
     <!-- En irriterande annons som alltid syns och innehåller en snurrande bild samt en vilseledande text -->
-    
-        <div class="top-section">
-            <div class="image-container">
-                <img class="rotating-image" src="images/chest.png" alt="Prize chest">
-            </div>
-            <p>🎉 You have won $10,000! 🎉</p>
-            <div class="image-container">
-                <img class="rotating-image" src="images/chest.png" alt="Prize chest">
-            </div>
-        </div>
-        <p class="btext">Click here to collect your money!</p>
-    
-
+    <!-- jag tog bort detta block då jag anser att det inte behövs-->
 
     <script src="script.js" defer></script>
 </body>
