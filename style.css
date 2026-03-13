@@ -28,12 +28,7 @@ a:focus {
 
 
 /* Nästan osynlig text, spegelvänd */
-.hidden-text {
-  display: block;
-  opacity: 1;
-  font-size: 16px;
-  transform: none;
-}
+
 
 /* En behållare med mittjusterad text och en blå transparent bakgrund */
 .container {
